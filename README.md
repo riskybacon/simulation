@@ -11,5 +11,3 @@ ios6/
 lb_waves/
   Implementation of Lattice-Boltzman water waves using an OpenGL fragment
   shader. 
-
-

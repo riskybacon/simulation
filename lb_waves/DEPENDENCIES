@@ -1,0 +1,40 @@
+Prerequisites:
+
+Mountain Lion (OS X)
+GLFW
+glm
+fftw-3 (from MacPorts)
+
+--------------------------------------------------------------------------------
+OS X Dependency Installation
+--------------------------------------------------------------------------------
+Install GLFW into /usr/local:
+
+Open up a terminal window
+
+curl -O -L "http://downloads.sourceforge.net/project/glfw/glfw/2.7.8/glfw-2.7.8.zip"
+unzip glfw-2.7.8.zip
+cd glfw-2.7.8
+sudo make cocoa-install
+
+Install GLM into /usr/local:
+
+curl -L https://sourceforge.net/projects/ogl-math/files/glm-0.9.4.3/glm-0.9.4.3.zip/download > glm-0.9.4.3.zip
+unzip glm-0.9.4.3.zip
+sudo mkdir -p /usr/local/include
+sudo mv glm /usr/local/include
+
+Install fftw-3
+Install MacPorts
+sudo port install fftw-3
+
+--------------------------------------------------------------------------------
+Creating XCode project:
+--------------------------------------------------------------------------------
+Assuming that your current working directory is the one that
+contains the source code:
+
+mkdir build
+cd build
+cmake -G Xcode ..
+open lb_waves.xcodeproj

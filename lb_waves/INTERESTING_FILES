@@ -1,0 +1,6 @@
+CA update happens in ca_update_frag.c
+
+This is called by CAModelGLSL, which is in ca_model_glsl.cpp 
+and ca_model_glsl.h
+
+

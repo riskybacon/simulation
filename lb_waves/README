@@ -1,0 +1,50 @@
+Jeff Bowles <jbowles@riskybacon.com>
+
+Implementation of Lattice Boltzman Water waves, as describe in the paper:
+
+   R. Geist, C. Corsi, J. Tessendorf, J. Westall.
+   Lattice-Boltzmann Water Waves 
+   In ISVC '10
+
+Initial conditions implemented as described in
+   J. Tessendorf
+   Simulating Ocean Water
+   SIGGRAPH 2001
+
+
+To run the project:
+
+Open a terminal window, cd to the directory that contains
+the source code for this project
+
+Assuming that your current working directory is the one that
+contains the source code:
+
+mkdir build
+cd build
+cmake ..
+make
+./lb_waves
+
+Controls:
+
+Mouse:
+
+Left mouse button drag rotates the model
+Vertical swiping on the mouse zooms in and out
+
+Keyboard:
+
+C - resets camera position
+B - resets simulation to initial conditions, which is a sum of both
+    the Guassian and Phillips. These are the interesting initial
+    conditions
+G - resets simulation to 4 gaussian distributed heights
+P - resets simulation to the Phillips specture
+R - reloads shaders. This allows for the shader and computational 
+    programs to be changed on the fly.
+S - Takes a screenshot, saves in PPM format
+Space - pauses simulation
+  
+
+
