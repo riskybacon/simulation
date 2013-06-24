@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SGViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5DH-tF-KVP">
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="settingsButtonPressed:" destination="2" eventType="touchUpInside" id="so4-qB-j9g"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" alpha="0.25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="9500000000" minValue="9000000000" maxValue="100000000000" translatesAutoresizingMaskIntoConstraints="NO" id="n9H-LZ-CiX">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="DhS-hQ-JhB"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeSingularityMass:" destination="2" eventType="valueChanged" id="gUk-EG-6sA"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw1-vJ-VYR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="a9t-Oe-VjV"/>
+                                    <constraint firstAttribute="height" constant="18" id="nMO-me-VbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="paused.png" backgroundImage="paused.png"/>
+                                <connections>
+                                    <action selector="pauseButton:" destination="2" eventType="touchUpInside" id="nHt-ih-Ufn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="n9H-LZ-CiX" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="EmR-95-zoc"/>
+                            <constraint firstItem="Gw1-vJ-VYR" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Tr5-Gt-15G"/>
+                            <constraint firstAttribute="bottom" secondItem="Gw1-vJ-VYR" secondAttribute="bottom" constant="6" id="eoI-ha-xRM"/>
+                            <constraint firstAttribute="trailing" secondItem="n9H-LZ-CiX" secondAttribute="trailing" constant="9" id="nrc-66-2ep"/>
+                            <constraint firstItem="5DH-tF-KVP" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="tWo-Ns-KAB"/>
+                            <constraint firstItem="5DH-tF-KVP" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="yDh-Rg-DJY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="singularitySlider" destination="n9H-LZ-CiX" id="CZe-j6-bJS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-464" y="-177"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paused.png" width="20" height="20"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SGViewController" superclassName="GLKViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SGViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changeSingularityMass:" candidateClass="UISlider"/>
+                <relationship kind="action" name="handlePanGesture:" candidateClass="UIPanGestureRecognizer"/>
+                <relationship kind="action" name="handlePinchGesture:" candidateClass="UIPinchGestureRecognizer"/>
+                <relationship kind="action" name="handleTapGesture:" candidateClass="UITapGestureRecognizer"/>
+                <relationship kind="action" name="pauseButton:"/>
+                <relationship kind="action" name="settingsButtonPressed:"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

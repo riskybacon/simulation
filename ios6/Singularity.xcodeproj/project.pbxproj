@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2606360716A77F2700C426B5 /* ParticleSystemView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2606360516A77F2700C426B5 /* ParticleSystemView.cpp */; };
+		260BB67C1688CFBB00E6B43B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260BB67B1688CFBB00E6B43B /* UIKit.framework */; };
+		260BB67E1688CFBB00E6B43B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260BB67D1688CFBB00E6B43B /* Foundation.framework */; };
+		260BB6801688CFBB00E6B43B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260BB67F1688CFBB00E6B43B /* CoreGraphics.framework */; };
+		260BB6821688CFBB00E6B43B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260BB6811688CFBB00E6B43B /* GLKit.framework */; };
+		260BB6841688CFBB00E6B43B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260BB6831688CFBB00E6B43B /* OpenGLES.framework */; };
+		260BB68A1688CFBB00E6B43B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6881688CFBB00E6B43B /* InfoPlist.strings */; };
+		260BB68C1688CFBB00E6B43B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260BB68B1688CFBB00E6B43B /* main.m */; };
+		260BB6901688CFBB00E6B43B /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260BB68F1688CFBB00E6B43B /* SGAppDelegate.m */; };
+		260BB6921688CFBB00E6B43B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6911688CFBB00E6B43B /* Default.png */; };
+		260BB6941688CFBB00E6B43B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6931688CFBB00E6B43B /* Default@2x.png */; };
+		260BB6961688CFBB00E6B43B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6951688CFBB00E6B43B /* Default-568h@2x.png */; };
+		260BB6991688CFBB00E6B43B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6971688CFBB00E6B43B /* MainStoryboard_iPhone.storyboard */; };
+		260BB69C1688CFBB00E6B43B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260BB69A1688CFBB00E6B43B /* MainStoryboard_iPad.storyboard */; };
+		260BB69E1688CFBB00E6B43B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 260BB69D1688CFBB00E6B43B /* Shader.fsh */; };
+		260BB6A01688CFBB00E6B43B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 260BB69F1688CFBB00E6B43B /* Shader.vsh */; };
+		260BB6A31688CFBB00E6B43B /* SGViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6A21688CFBB00E6B43B /* SGViewController.mm */; };
+		260BB6AA1688D02700E6B43B /* render_frag.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6A91688D02700E6B43B /* render_frag.fsh */; };
+		260BB6AC1688D03300E6B43B /* render_vert.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6AB1688D03300E6B43B /* render_vert.vsh */; };
+		260BB6AD1688D04600E6B43B /* render_vert.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6AB1688D03300E6B43B /* render_vert.vsh */; };
+		260BB6AE1688D04E00E6B43B /* render_frag.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 260BB6A91688D02700E6B43B /* render_frag.fsh */; };
+		260BB6B61688D2A100E6B43B /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6B51688D2A100E6B43B /* Shader.cpp */; };
+		260BB6BA1688D2C600E6B43B /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6B81688D2C600E6B43B /* ParticleSystem.cpp */; };
+		260BB6BD1688D2EC00E6B43B /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 260BB6BB1688D2EC00E6B43B /* Scene.cpp */; };
+		2630FAE1168B662C009C693D /* SettingsIcon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2630FADF168B662C009C693D /* SettingsIcon.cpp */; };
+		2630FAE3168B7F1B009C693D /* textured_quad.vsh in Sources */ = {isa = PBXBuildFile; fileRef = 2630FAE2168B7F1B009C693D /* textured_quad.vsh */; };
+		2630FAE5168B7F28009C693D /* textured_quad.fsh in Sources */ = {isa = PBXBuildFile; fileRef = 2630FAE4168B7F28009C693D /* textured_quad.fsh */; };
+		2630FAE6168B7F3A009C693D /* textured_quad.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2630FAE2168B7F1B009C693D /* textured_quad.vsh */; };
+		2630FAE7168B7F3A009C693D /* textured_quad.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2630FAE4168B7F28009C693D /* textured_quad.fsh */; };
+		2630FBF216937E71009C693D /* SGSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2630FBF016937E70009C693D /* SGSettingsViewController.m */; };
+		2699244516A7733C002261E3 /* ParticleSystemModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2699244316A7733C002261E3 /* ParticleSystemModel.cpp */; };
+		26F25F82169C698700E20E9A /* paused.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F25F81169C698700E20E9A /* paused.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2606360516A77F2700C426B5 /* ParticleSystemView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystemView.cpp; sourceTree = "<group>"; };
+		2606360616A77F2700C426B5 /* ParticleSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystemView.h; sourceTree = "<group>"; };
+		260BB6771688CFBB00E6B43B /* Singularity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singularity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260BB67B1688CFBB00E6B43B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		260BB67D1688CFBB00E6B43B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		260BB67F1688CFBB00E6B43B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		260BB6811688CFBB00E6B43B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		260BB6831688CFBB00E6B43B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		260BB6871688CFBB00E6B43B /* Singularity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Singularity-Info.plist"; sourceTree = "<group>"; };
+		260BB6891688CFBB00E6B43B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		260BB68B1688CFBB00E6B43B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		260BB68D1688CFBB00E6B43B /* Singularity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Singularity-Prefix.pch"; sourceTree = "<group>"; };
+		260BB68E1688CFBB00E6B43B /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		260BB68F1688CFBB00E6B43B /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		260BB6911688CFBB00E6B43B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		260BB6931688CFBB00E6B43B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		260BB6951688CFBB00E6B43B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		260BB6981688CFBB00E6B43B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		260BB69B1688CFBB00E6B43B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		260BB69D1688CFBB00E6B43B /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		260BB69F1688CFBB00E6B43B /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		260BB6A11688CFBB00E6B43B /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		260BB6A21688CFBB00E6B43B /* SGViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SGViewController.mm; sourceTree = "<group>"; };
+		260BB6A91688D02700E6B43B /* render_frag.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = render_frag.fsh; path = Shaders/render_frag.fsh; sourceTree = "<group>"; };
+		260BB6AB1688D03300E6B43B /* render_vert.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = render_vert.vsh; path = Shaders/render_vert.vsh; sourceTree = "<group>"; };
+		260BB6AF1688D07400E6B43B /* OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGL.h; sourceTree = "<group>"; };
+		260BB6B51688D2A100E6B43B /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		260BB6B71688D2AB00E6B43B /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		260BB6B81688D2C600E6B43B /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystem.cpp; sourceTree = "<group>"; };
+		260BB6B91688D2C600E6B43B /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystem.h; sourceTree = "<group>"; };
+		260BB6BB1688D2EC00E6B43B /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		260BB6BC1688D2EC00E6B43B /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		2630FAD5168A888C009C693D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2630FADF168B662C009C693D /* SettingsIcon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingsIcon.cpp; sourceTree = "<group>"; };
+		2630FAE0168B662C009C693D /* SettingsIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsIcon.h; sourceTree = "<group>"; };
+		2630FAE2168B7F1B009C693D /* textured_quad.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = textured_quad.vsh; path = Shaders/textured_quad.vsh; sourceTree = "<group>"; };
+		2630FAE4168B7F28009C693D /* textured_quad.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = textured_quad.fsh; sourceTree = "<group>"; };
+		2630FBEF16937E70009C693D /* SGSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSettingsViewController.h; sourceTree = "<group>"; };
+		2630FBF016937E70009C693D /* SGSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSettingsViewController.m; sourceTree = "<group>"; };
+		2699244316A7733C002261E3 /* ParticleSystemModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystemModel.cpp; sourceTree = "<group>"; };
+		2699244416A7733C002261E3 /* ParticleSystemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSystemModel.h; sourceTree = "<group>"; };
+		26F25F81169C698700E20E9A /* paused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paused.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260BB6741688CFBB00E6B43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260BB67C1688CFBB00E6B43B /* UIKit.framework in Frameworks */,
+				260BB67E1688CFBB00E6B43B /* Foundation.framework in Frameworks */,
+				260BB6801688CFBB00E6B43B /* CoreGraphics.framework in Frameworks */,
+				260BB6821688CFBB00E6B43B /* GLKit.framework in Frameworks */,
+				260BB6841688CFBB00E6B43B /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260BB66C1688CFBB00E6B43B = {
+			isa = PBXGroup;
+			children = (
+				2630FAD5168A888C009C693D /* QuartzCore.framework */,
+				260BB6851688CFBB00E6B43B /* Singularity */,
+				260BB67A1688CFBB00E6B43B /* Frameworks */,
+				260BB6781688CFBB00E6B43B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260BB6781688CFBB00E6B43B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260BB6771688CFBB00E6B43B /* Singularity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260BB67A1688CFBB00E6B43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260BB67B1688CFBB00E6B43B /* UIKit.framework */,
+				260BB67D1688CFBB00E6B43B /* Foundation.framework */,
+				260BB67F1688CFBB00E6B43B /* CoreGraphics.framework */,
+				260BB6811688CFBB00E6B43B /* GLKit.framework */,
+				260BB6831688CFBB00E6B43B /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		260BB6851688CFBB00E6B43B /* Singularity */ = {
+			isa = PBXGroup;
+			children = (
+				2630FADF168B662C009C693D /* SettingsIcon.cpp */,
+				2630FAE0168B662C009C693D /* SettingsIcon.h */,
+				2630FAE2168B7F1B009C693D /* textured_quad.vsh */,
+				2630FAE4168B7F28009C693D /* textured_quad.fsh */,
+				260BB6BB1688D2EC00E6B43B /* Scene.cpp */,
+				260BB6BC1688D2EC00E6B43B /* Scene.h */,
+				260BB6B91688D2C600E6B43B /* ParticleSystem.h */,
+				260BB6B81688D2C600E6B43B /* ParticleSystem.cpp */,
+				260BB6B71688D2AB00E6B43B /* Shader.h */,
+				260BB6B51688D2A100E6B43B /* Shader.cpp */,
+				260BB6AF1688D07400E6B43B /* OpenGL.h */,
+				260BB6AB1688D03300E6B43B /* render_vert.vsh */,
+				260BB6A91688D02700E6B43B /* render_frag.fsh */,
+				260BB68E1688CFBB00E6B43B /* SGAppDelegate.h */,
+				260BB68F1688CFBB00E6B43B /* SGAppDelegate.m */,
+				260BB6971688CFBB00E6B43B /* MainStoryboard_iPhone.storyboard */,
+				260BB69A1688CFBB00E6B43B /* MainStoryboard_iPad.storyboard */,
+				260BB69D1688CFBB00E6B43B /* Shader.fsh */,
+				260BB69F1688CFBB00E6B43B /* Shader.vsh */,
+				260BB6A11688CFBB00E6B43B /* SGViewController.h */,
+				260BB6A21688CFBB00E6B43B /* SGViewController.mm */,
+				260BB6861688CFBB00E6B43B /* Supporting Files */,
+				2630FBEF16937E70009C693D /* SGSettingsViewController.h */,
+				2630FBF016937E70009C693D /* SGSettingsViewController.m */,
+				2699244316A7733C002261E3 /* ParticleSystemModel.cpp */,
+				2699244416A7733C002261E3 /* ParticleSystemModel.h */,
+				2606360516A77F2700C426B5 /* ParticleSystemView.cpp */,
+				2606360616A77F2700C426B5 /* ParticleSystemView.h */,
+			);
+			path = Singularity;
+			sourceTree = "<group>";
+		};
+		260BB6861688CFBB00E6B43B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F25F81169C698700E20E9A /* paused.png */,
+				260BB6871688CFBB00E6B43B /* Singularity-Info.plist */,
+				260BB6881688CFBB00E6B43B /* InfoPlist.strings */,
+				260BB68B1688CFBB00E6B43B /* main.m */,
+				260BB68D1688CFBB00E6B43B /* Singularity-Prefix.pch */,
+				260BB6911688CFBB00E6B43B /* Default.png */,
+				260BB6931688CFBB00E6B43B /* Default@2x.png */,
+				260BB6951688CFBB00E6B43B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260BB6761688CFBB00E6B43B /* Singularity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260BB6A61688CFBB00E6B43B /* Build configuration list for PBXNativeTarget "Singularity" */;
+			buildPhases = (
+				260BB6731688CFBB00E6B43B /* Sources */,
+				260BB6741688CFBB00E6B43B /* Frameworks */,
+				260BB6751688CFBB00E6B43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Singularity;
+			productName = Singularity;
+			productReference = 260BB6771688CFBB00E6B43B /* Singularity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260BB66E1688CFBB00E6B43B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jeffrey Bowles";
+			};
+			buildConfigurationList = 260BB6711688CFBB00E6B43B /* Build configuration list for PBXProject "Singularity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260BB66C1688CFBB00E6B43B;
+			productRefGroup = 260BB6781688CFBB00E6B43B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260BB6761688CFBB00E6B43B /* Singularity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260BB6751688CFBB00E6B43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2630FAE6168B7F3A009C693D /* textured_quad.vsh in Resources */,
+				2630FAE7168B7F3A009C693D /* textured_quad.fsh in Resources */,
+				260BB6AE1688D04E00E6B43B /* render_frag.fsh in Resources */,
+				260BB6AD1688D04600E6B43B /* render_vert.vsh in Resources */,
+				260BB68A1688CFBB00E6B43B /* InfoPlist.strings in Resources */,
+				260BB6921688CFBB00E6B43B /* Default.png in Resources */,
+				260BB6941688CFBB00E6B43B /* Default@2x.png in Resources */,
+				260BB6961688CFBB00E6B43B /* Default-568h@2x.png in Resources */,
+				260BB6991688CFBB00E6B43B /* MainStoryboard_iPhone.storyboard in Resources */,
+				260BB69C1688CFBB00E6B43B /* MainStoryboard_iPad.storyboard in Resources */,
+				260BB69E1688CFBB00E6B43B /* Shader.fsh in Resources */,
+				260BB6A01688CFBB00E6B43B /* Shader.vsh in Resources */,
+				26F25F82169C698700E20E9A /* paused.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260BB6731688CFBB00E6B43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260BB68C1688CFBB00E6B43B /* main.m in Sources */,
+				260BB6901688CFBB00E6B43B /* SGAppDelegate.m in Sources */,
+				260BB6A31688CFBB00E6B43B /* SGViewController.mm in Sources */,
+				260BB6AA1688D02700E6B43B /* render_frag.fsh in Sources */,
+				260BB6AC1688D03300E6B43B /* render_vert.vsh in Sources */,
+				260BB6B61688D2A100E6B43B /* Shader.cpp in Sources */,
+				260BB6BA1688D2C600E6B43B /* ParticleSystem.cpp in Sources */,
+				260BB6BD1688D2EC00E6B43B /* Scene.cpp in Sources */,
+				2630FAE1168B662C009C693D /* SettingsIcon.cpp in Sources */,
+				2630FAE3168B7F1B009C693D /* textured_quad.vsh in Sources */,
+				2630FAE5168B7F28009C693D /* textured_quad.fsh in Sources */,
+				2630FBF216937E71009C693D /* SGSettingsViewController.m in Sources */,
+				2699244516A7733C002261E3 /* ParticleSystemModel.cpp in Sources */,
+				2606360716A77F2700C426B5 /* ParticleSystemView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		260BB6881688CFBB00E6B43B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260BB6891688CFBB00E6B43B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		260BB6971688CFBB00E6B43B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260BB6981688CFBB00E6B43B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		260BB69A1688CFBB00E6B43B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260BB69B1688CFBB00E6B43B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		260BB6A41688CFBB00E6B43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		260BB6A51688CFBB00E6B43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		260BB6A71688CFBB00E6B43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singularity/Singularity-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_FILE = "Singularity/Singularity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		260BB6A81688CFBB00E6B43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singularity/Singularity-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				INFOPLIST_FILE = "Singularity/Singularity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260BB6711688CFBB00E6B43B /* Build configuration list for PBXProject "Singularity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260BB6A41688CFBB00E6B43B /* Debug */,
+				260BB6A51688CFBB00E6B43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260BB6A61688CFBB00E6B43B /* Build configuration list for PBXNativeTarget "Singularity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260BB6A71688CFBB00E6B43B /* Debug */,
+				260BB6A81688CFBB00E6B43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260BB66E1688CFBB00E6B43B /* Project object */;
+}

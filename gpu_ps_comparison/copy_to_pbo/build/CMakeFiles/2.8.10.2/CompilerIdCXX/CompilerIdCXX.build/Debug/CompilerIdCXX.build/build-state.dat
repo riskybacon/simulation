@@ -1,0 +1,68 @@
+TCompilerIdCXX
+v5
+r1
+cCheck dependencies
+cCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX normal i386
+cPhaseScriptExecution "Run Script" /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX
+t2
+s0
+
+N/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+t2
+s0
+
+N/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+c0000000051C89A3100000000000000B6
+t1372101169
+s182
+
+N/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000051C89A31000000000000002A
+t1372101169
+s42
+
+N/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+c0000000051C89A310000000000002E22
+t1372101169
+s11810
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd7a6e9b1d178b741^bbb7f6b1d178b741^---0#1#0#--18"Check dependencies36"3227C078-845F-4CB4-92BE-D6B53D6F3C70-
+
+CCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393793969.967489
+e393793969.984392
+r1
+xCompileC
+x./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+x/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp29ccf7b1d178b741^0c01fcb1d178b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp0000000000000000^2841"CompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o36"5D8D6114-A8BC-43AA-BD0E-94AACA5CB8A8-
+
+CLd /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX normal i386
+s393793969.991533
+e393793970.014280
+r1
+xLd
+x/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXXd1e9fdb1d178b741^65a703b2d178b741^---0#0#0#--741"Ld ./CompilerIdCXX normal i386    cd /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -L/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX -F/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX -filelist /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -o /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX36"681E491E-EA87-40ED-910A-6D3C3341E2CF-
+
+CPhaseScriptExecution "Run Script" /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s393793970.022815
+e393793970.045875
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'b69d06b2d178b741^09c00bb2d178b741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-393793970#0#47#-0#-----0#0#0#--408"PhaseScriptExecution "Run Script" ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX    /bin/sh -c /Users/jbowles/github/simulation/gravity/copy_to_pbo/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"FAC2BAE3-5069-433A-9148-DF283AA3B0A7-
+
