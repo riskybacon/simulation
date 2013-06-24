@@ -1,6 +1,6 @@
 Gravity simulation performed using OpenGL FBOs and a fragment shader.
-There is ingle gravity source in the scene. New positions are calculated using
-Newton's 2nd law with RK4.
+There is a single gravity source in the scene. New positions are calculated
+using Newton's 2nd law and RK4.
 
 The computation is performed in a fragment shader and the resulting output
 is copied from an OpenGL texture map to a GL_ARRAY_BUFFER. The hope is that 
