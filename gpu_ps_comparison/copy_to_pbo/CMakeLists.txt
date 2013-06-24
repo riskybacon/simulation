@@ -14,7 +14,7 @@ if(APPLE)
 endif(APPLE)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../../cmake/
+  ${CMAKE_CURRENT_SOURCE_DIR}/../../cmake/
 )
 
 include(FindOpenGL)
@@ -39,7 +39,7 @@ include_directories(
   ${OPENGL_INCLUDE_DIR}
   ${GLFW_INCLUDE_DIR}
   ${GLM_INCLUDE_DIR}
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common
+  ${CMAKE_CURRENT_SOURCE_DIR}/../../common/opengl
 )
 
 # Get the path to the source code and create a define. This is used

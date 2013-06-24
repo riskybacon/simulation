@@ -1,4 +1,7 @@
 #version 150
+//
+// Author: Jeff Bowles <jbowles@riskybacon.com>
+//
 
 in vec4 pos;
 

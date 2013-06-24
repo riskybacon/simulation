@@ -1,3 +1,6 @@
+//
+// Author: Jeff Bowles <jbowles@riskybacon.com>
+//
 #include <iostream>
 #include <GL/glfw.h>
 #include <glm/glm.hpp>

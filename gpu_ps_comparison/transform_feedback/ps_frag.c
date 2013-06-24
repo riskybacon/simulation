@@ -1,4 +1,7 @@
 #version 150
+//
+// Author: Jeff Bowles <jbowles@riskybacon.com>
+//
 
 out vec4 fragColor;
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(PROJ_NAME transform_feedback_05)
+set(PROJ_NAME transform_feedback)
 
 project(${PROJ_NAME})
 
@@ -12,7 +12,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -std=c++0x -stdlib=libc++ -g -Wall")
 include_directories(/usr/lib/c++/v1)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}
- ${CMAKE_CURRENT_SOURCE_DIR}/../../../../cmake/
+ ${CMAKE_CURRENT_SOURCE_DIR}/../../cmake/
 )
 
 include(FindOpenGL)

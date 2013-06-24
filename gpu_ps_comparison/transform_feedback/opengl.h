@@ -1,3 +1,6 @@
+//
+// Author: Jeff Bowles <jbowles@riskybacon.com>
+//
 #pragma once
 
 #ifndef __APPLE__
