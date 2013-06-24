@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(PROJ_NAME copy_to_pbo_01)
+set(PROJ_NAME copy_to_pbo)
 
 project(${PROJ_NAME})
 
@@ -51,14 +51,16 @@ if(APPLE)
   set(PLATFORM_LIBRARIES "-framework IOKit")
 endif(APPLE)
 
+set(COMMON_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../common/opengl)
+
 # Add a target executable
 add_executable(${PROJ_NAME}
   main.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common/opengl.h
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common/shader.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common/shader.h
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common/trackball.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../../common/trackball.h
+  ${COMMON_SOURCE_DIR}/opengl.h
+  ${COMMON_SOURCE_DIR}/shader.cpp
+  ${COMMON_SOURCE_DIR}/shader.h
+  ${COMMON_SOURCE_DIR}/trackball.cpp
+  ${COMMON_SOURCE_DIR}/trackball.h
 )
 
 # Libraries to be linked
