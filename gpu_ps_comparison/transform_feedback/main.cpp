@@ -236,15 +236,15 @@ void GLFWCALL keypress(int key, int state)
 glm::quat createQuat(float angle, const glm::vec3& axis)
 {
    glm::quat quat;
-	angle *= 0.5f;
+   angle *= 0.5f;
    float sinAngle;
    
-	sinAngle = sin(angle);
+   sinAngle = sin(angle);
    
-	quat.x = (axis.x * sinAngle);
-	quat.y = (axis.y * sinAngle);
-	quat.z = (axis.z * sinAngle);
-	quat.w = cos(angle);
+   quat.x = (axis.x * sinAngle);
+   quat.y = (axis.y * sinAngle);
+   quat.z = (axis.z * sinAngle);
+   quat.w = cos(angle);
    
    return quat;
 }
@@ -513,7 +513,8 @@ int main(int argc, char* argv[])
    std::cout << "GL Version: " << glGetString(GL_VERSION) << std::endl;
 
    
-#if 1
+#if 0
+   // This section used to test FPS with varying numbers of particles
    vector<float> numParticles =
    {
       250000,
