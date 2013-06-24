@@ -1,68 +1,0 @@
-TCompilerIdC
-v5
-r1
-cCheck dependencies
-cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
-cPhaseScriptExecution "Run Script" /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
-t2
-s0
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-t2
-s0
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
-c0000000051C89D8F00000000000000C7
-t1372102031
-s199
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-c0000000051C89D8F000000000000002A
-t1372102031
-s42
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
-c0000000051C89D8F0000000000002F20
-t1372102031
-s12064
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4e0e530fd578b741^8d435d0fd578b741^---0#1#0#--18"Check dependencies36"88932FE4-9424-4322-9995-5AB5B20B022F-
-
-CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s393794831.367924
-e393794831.385169
-r1
-xCompileC
-x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.ccf4e5e0fd578b741^709a620fd578b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2894"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"80264868-588C-47FC-8C08-095E252A4D08-
-
-CLd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
-s393794831.392236
-e393794831.408824
-r1
-xLd
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC2d79640fd578b741^6da8680fd578b741^---0#0#0#--844"Ld ./CompilerIdC normal i386    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"8A0A8D3F-59B9-46B1-8858-C59C53AF06F1-
-
-CPhaseScriptExecution "Run Script" /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-s393794831.417305
-e393794831.434095
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'492a6b0fd578b741^25236f0fd578b741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-393794831#0#47#-0#-----0#0#0#--446"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"54C86094-4133-493A-9472-2CBC73558CD5-
-

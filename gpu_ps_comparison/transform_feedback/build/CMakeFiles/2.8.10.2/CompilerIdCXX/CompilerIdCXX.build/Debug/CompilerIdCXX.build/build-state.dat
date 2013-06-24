@@ -1,68 +1,0 @@
-TCompilerIdCXX
-v5
-r1
-cCheck dependencies
-cCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX normal i386
-cPhaseScriptExecution "Run Script" /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX
-t2
-s0
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
-t2
-s0
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
-c0000000051C89D8F00000000000000CF
-t1372102031
-s207
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-c0000000051C89D8F000000000000002A
-t1372102031
-s42
-
-N/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-c0000000051C89D8F0000000000002E22
-t1372102031
-s11810
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese44ec50fd578b741^a88dd20fd578b741^---0#1#0#--18"Check dependencies36"139B5B96-DE30-40B2-B701-91D7E8DA302F-
-
-CCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s393794831.826087
-e393794831.842992
-r1
-xCompileC
-x./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp5b9ad30fd578b741^31ced70fd578b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp0000000000000000^3091"CompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o36"425F4169-8887-4281-ADD8-B7EFB1DE300A-
-
-CLd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX normal i386
-s393794831.850052
-e393794831.868554
-r1
-xLd
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXXe2afd90fd578b741^4b59de0fd578b741^---0#0#0#--866"Ld ./CompilerIdCXX normal i386    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -L/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX -F/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX -filelist /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -o /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX36"FB7F1D06-A79A-4A10-A158-21E07649B927-
-
-CPhaseScriptExecution "Run Script" /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-s393794831.877062
-e393794831.900230
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'a455e10fd578b741^3e77e60fd578b741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-393794831#0#47#-0#-----0#0#0#--458"PhaseScriptExecution "Run Script" ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX    /bin/sh -c /Users/jbowles/github/opengl/simulation/gravity/comparison/transform_feedback/build/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"31B94A0B-E4A2-4D8E-BE51-2D5CE5FCBE12-
-
