@@ -1,1 +1,1 @@
-Click "view raw" to see the PDF
+Click on the PDF, and then "view raw" to see the PDF
